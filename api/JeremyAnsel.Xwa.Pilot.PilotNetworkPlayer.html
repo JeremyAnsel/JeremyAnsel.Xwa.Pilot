@@ -1,0 +1,892 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PilotNetworkPlayer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PilotNetworkPlayer
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot" title="Source Code">Source Code</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="JeremyAnsel.Xwa.Pilot.html" title="JeremyAnsel.Xwa.Pilot" class="">JeremyAnsel.Xwa.Pilot</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotAiRank.html" title="PilotAiRank" class="">PilotAiRank</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotFaction.html" title="PilotFaction" class="">PilotFaction</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotFactionId.html" title="PilotFactionId" class="">PilotFactionId</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotFile.html" title="PilotFile" class="">PilotFile</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotHangar.html" title="PilotHangar" class="">PilotHangar</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotMission.html" title="PilotMission" class="">PilotMission</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotMissionCategory.html" title="PilotMissionCategory" class="">PilotMissionCategory</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotMissionDirectory.html" title="PilotMissionDirectory" class="">PilotMissionDirectory</a>
+                          </li>
+                          <li class="active">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.html" title="PilotNetworkPlayer" class="active">PilotNetworkPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotObjectStats.html" title="PilotObjectStats" class="">PilotObjectStats</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotRank.html" title="PilotRank" class="">PilotRank</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotRating.html" title="PilotRating" class="">PilotRating</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.Xwa.Pilot.PilotTeam.html" title="PilotTeam" class="">PilotTeam</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer">
+  
+  
+  <h1 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer" class="text-break">Class PilotNetworkPlayer
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">PilotNetworkPlayer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="JeremyAnsel.Xwa.Pilot.html">JeremyAnsel.Xwa.Pilot</a></h6>
+  <h6><strong>Assembly</strong>: JeremyAnsel.Xwa.Pilot.dll</h6>
+  <h5 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PilotNetworkPlayer</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FormalNameMaxLength.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FormalNameMaxLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L5">View Source</a>
+  </span>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FormalNameMaxLength" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FormalNameMaxLength">FormalNameMaxLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FormalNameMaxLength = 14</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FriendlyNameMaxLength.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FriendlyNameMaxLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L6">View Source</a>
+  </span>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FriendlyNameMaxLength" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FriendlyNameMaxLength">FriendlyNameMaxLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FriendlyNameMaxLength = 14</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_BeamType.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.BeamType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L64">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_BeamType_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.BeamType*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_BeamType" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.BeamType">BeamType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BeamType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CounterMeasuresType.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CounterMeasuresType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L66">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CounterMeasuresType_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CounterMeasuresType*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CounterMeasuresType" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CounterMeasuresType">CounterMeasuresType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CounterMeasuresType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CraftId.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CraftId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L60">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CraftId_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CraftId*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CraftId" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CraftId">CraftId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CraftId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CraftsCount.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CraftsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L68">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CraftsCount_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CraftsCount*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_CraftsCount" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.CraftsCount">CraftsCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CraftsCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_DirectPlayId.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.DirectPlayId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L42">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_DirectPlayId_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.DirectPlayId*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_DirectPlayId" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.DirectPlayId">DirectPlayId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DirectPlayId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FlightGroupId.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FlightGroupId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L38">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FlightGroupId_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FlightGroupId*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FlightGroupId" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FlightGroupId">FlightGroupId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FlightGroupId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FormalName.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FormalName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L10">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FormalName_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FormalName*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FormalName" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FormalName">FormalName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FormalName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FriendlyName.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FriendlyName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L25">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FriendlyName_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FriendlyName*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_FriendlyName" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.FriendlyName">FriendlyName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FriendlyName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_Kills.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.Kills%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L48">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_Kills_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.Kills*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_Kills" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.Kills">Kills</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Kills { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_KillsAssist.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.KillsAssist%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L54">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_KillsAssist_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.KillsAssist*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_KillsAssist" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.KillsAssist">KillsAssist</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KillsAssist { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_KillsShared.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.KillsShared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L50">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_KillsShared_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.KillsShared*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_KillsShared" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.KillsShared">KillsShared</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KillsShared { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M20.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M20%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L40">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M20_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M20*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M20" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M20">M20</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int M20 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M38.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M38%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L52">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M38_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M38*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M38" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M38">M38</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int M38 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M44.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M44%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L58">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M44_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M44*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M44" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M44">M44</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int M44 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M60.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M60%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L72">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M60_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M60*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_M60" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.M60">M60</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int M60 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_Rating.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.Rating%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L44">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_Rating_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.Rating*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_Rating" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.Rating">Rating</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Rating { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_TotalLosses.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.TotalLosses%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L56">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_TotalLosses_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.TotalLosses*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_TotalLosses" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.TotalLosses">TotalLosses</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalLosses { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_TotalScore.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.TotalScore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L46">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_TotalScore_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.TotalScore*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_TotalScore" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.TotalScore">TotalScore</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalScore { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_WarheadType.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.WarheadType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L62">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_WarheadType_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.WarheadType*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_WarheadType" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.WarheadType">WarheadType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WarheadType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_WavesCount.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.WavesCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L70">View Source</a>
+  </span>
+  <a id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_WavesCount_" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.WavesCount*"></a>
+  <h4 id="JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer_WavesCount" data-uid="JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.WavesCount">WavesCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WavesCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/new/main/apiSpec/new?filename=JeremyAnsel_Xwa_Pilot_PilotNetworkPlayer.md&amp;value=---%0Auid%3A%20JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot/blob/main/JeremyAnsel.Xwa.Pilot/JeremyAnsel.Xwa.Pilot/PilotNetworkPlayer.cs/#L3" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 2023 J&eacute;r&eacute;my Ansel
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,257 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/jeremyansel-xwa-pilot/JeremyAnsel.Xwa.Pilot/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotAiRank.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotAiRank.html",
+          "hash": "1RxC/oZrM5Nre1cWiuool8kKKNss+wrL1dCrlzogz8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFaction.html",
+          "hash": "A8mo7+dzou+b54eupwAEDdACJY/TJNGA/65kxR7NSdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFactionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFactionId.html",
+          "hash": "aaifjRTIA+Tg87JVPyZJBOEIeEdFHrFsH8zXI3HRS+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFile.html",
+          "hash": "+irk0WBE7muL5/+H4ti7Db6ckK4DTlvrYRWp1698cEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotHangar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotHangar.html",
+          "hash": "geaZl56b1NvDzwBFPpOjsz6uWRknLhvtO1gIEOFIWTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMission.html",
+          "hash": "eOxmGq0KF/3JP1DyvB9XUW4gtOy53aGUgKjwQ76gMNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionCategory.html",
+          "hash": "R69Euj4l8RLItuCSneL6+YqyI7rakwsaS/t0KPbdL6c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionDirectory.html",
+          "hash": "CICfe1R1b/rDDZWpz+OiJod4i7TEFj7jDR6ZM/e1EI0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.html",
+          "hash": "6gPssCJSW6N38RoIXLdWymmFhQOEXofwDwNE5tywrq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotObjectStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotObjectStats.html",
+          "hash": "rAbDPQQvHMNonKvgfyHubQVLm/KVAf1n51EYhqMgXv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRank.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRank.html",
+          "hash": "5c8IBnzjW++ZM5ioX97h1ZYpXsteHAEnHVzQ6u7Uj5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRating.html",
+          "hash": "+uNriuIH8rw6FDgEQEiT1JMDXmsDSkIonc5wz9YsmbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotTeam.html",
+          "hash": "HUYIFBC980GrWFlstsejCzDD1I4VThSvCLFJdIJBIIw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.html",
+          "hash": "o8eesJVdHlGzs+L0TrY1ybrzZ0EGTyxJ8LDDg22ArH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "p+e4YZOE5MTR/43cx1/MZZG7fBJu9mVcz4QmaEBHkR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "jHtJPdxw+C7LY/PYuo4BUDHvSZoKiT/Hqrx3TPO5338="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
