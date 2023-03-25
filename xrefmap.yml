@@ -768,11 +768,14 @@ references:
   fullName: JeremyAnsel.Xwa.Pilot.PilotFile.FlightGroupRating
   nameWithType: PilotFile.FlightGroupRating
 - uid: JeremyAnsel.Xwa.Pilot.PilotFile.FromFile(System.String)
-  name: FromFile(String)
+  name: FromFile(string)
   href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_FromFile_System_String_
   commentId: M:JeremyAnsel.Xwa.Pilot.PilotFile.FromFile(System.String)
-  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.FromFile(System.String)
-  nameWithType: PilotFile.FromFile(String)
+  name.vb: FromFile(String)
+  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.FromFile(string)
+  fullName.vb: JeremyAnsel.Xwa.Pilot.PilotFile.FromFile(String)
+  nameWithType: PilotFile.FromFile(string)
+  nameWithType.vb: PilotFile.FromFile(String)
 - uid: JeremyAnsel.Xwa.Pilot.PilotFile.FromFile*
   name: FromFile
   href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_FromFile_
@@ -780,11 +783,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.Xwa.Pilot.PilotFile.FromFile
   nameWithType: PilotFile.FromFile
-- uid: JeremyAnsel.Xwa.Pilot.PilotFile.FromStream(Stream)
+- uid: JeremyAnsel.Xwa.Pilot.PilotFile.FromStream(System.IO.Stream)
   name: FromStream(Stream)
-  href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_FromStream_Stream_
-  commentId: M:JeremyAnsel.Xwa.Pilot.PilotFile.FromStream(Stream)
-  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.FromStream(Stream)
+  href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_FromStream_System_IO_Stream_
+  commentId: M:JeremyAnsel.Xwa.Pilot.PilotFile.FromStream(System.IO.Stream)
+  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.FromStream(System.IO.Stream)
   nameWithType: PilotFile.FromStream(Stream)
 - uid: JeremyAnsel.Xwa.Pilot.PilotFile.FromStream*
   name: FromStream
@@ -1408,18 +1411,21 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.Xwa.Pilot.PilotFile.RegionsCount
   nameWithType: PilotFile.RegionsCount
-- uid: JeremyAnsel.Xwa.Pilot.PilotFile.Save(Stream)
+- uid: JeremyAnsel.Xwa.Pilot.PilotFile.Save(System.IO.Stream)
   name: Save(Stream)
-  href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_Save_Stream_
-  commentId: M:JeremyAnsel.Xwa.Pilot.PilotFile.Save(Stream)
-  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.Save(Stream)
+  href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_Save_System_IO_Stream_
+  commentId: M:JeremyAnsel.Xwa.Pilot.PilotFile.Save(System.IO.Stream)
+  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.Save(System.IO.Stream)
   nameWithType: PilotFile.Save(Stream)
 - uid: JeremyAnsel.Xwa.Pilot.PilotFile.Save(System.String)
-  name: Save(String)
+  name: Save(string)
   href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_Save_System_String_
   commentId: M:JeremyAnsel.Xwa.Pilot.PilotFile.Save(System.String)
-  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.Save(System.String)
-  nameWithType: PilotFile.Save(String)
+  name.vb: Save(String)
+  fullName: JeremyAnsel.Xwa.Pilot.PilotFile.Save(string)
+  fullName.vb: JeremyAnsel.Xwa.Pilot.PilotFile.Save(String)
+  nameWithType: PilotFile.Save(string)
+  nameWithType.vb: PilotFile.Save(String)
 - uid: JeremyAnsel.Xwa.Pilot.PilotFile.Save*
   name: Save
   href: api/JeremyAnsel.Xwa.Pilot.PilotFile.html#JeremyAnsel_Xwa_Pilot_PilotFile_Save_
