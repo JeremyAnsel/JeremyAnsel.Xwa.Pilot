@@ -5,10 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.Xwa.Pilot", "JeremyAnsel.Xwa.Pilot\JeremyAnsel.Xwa.Pilot.csproj", "{D837DC2D-E0CF-4E9A-8E2D-1F94FDCD2FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{BA8F3409-5EBC-4F93-A79C-B0421DEDE5A8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D837DC2D-E0CF-4E9A-8E2D-1F94FDCD2FBC} = {D837DC2D-E0CF-4E9A-8E2D-1F94FDCD2FBC}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Documentation", "Documentation\Documentation.csproj", "{BA8F3409-5EBC-4F93-A79C-B0421DEDE5A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
