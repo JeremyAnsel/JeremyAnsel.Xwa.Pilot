@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/projects/jeremyansel-xwa-pilot/JeremyAnsel.Xwa.Pilot/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -16,8 +15,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotAiRank.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotAiRank.html",
-          "hash": "sAO4NSRvemTPuhyLSNAqsApar5o60ygQrI2kyj49NNU="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotAiRank.html"
         }
       },
       "version": ""
@@ -27,8 +25,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFaction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFaction.html",
-          "hash": "+IqV1BGL5p6Cv1XtI24ogX0E2iKDE8e8SO7SZxDCDl4="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFaction.html"
         }
       },
       "version": ""
@@ -38,8 +35,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFactionId.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFactionId.html",
-          "hash": "mmJy8eXsBSugcKPZgNMxZCdXdfPTmcPgApf0AmRHgnU="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFactionId.html"
         }
       },
       "version": ""
@@ -49,8 +45,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFile.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFile.html",
-          "hash": "JPhPNBvKa5ZWa6JWElTzUDrVpCurigTaEQKiCop8yDo="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotFile.html"
         }
       },
       "version": ""
@@ -60,8 +55,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotHangar.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotHangar.html",
-          "hash": "d/IYrjctRHFnhbqzBMdmGy7iy8DIaQQl3jBqpBUwq6k="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotHangar.html"
         }
       },
       "version": ""
@@ -71,8 +65,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMission.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMission.html",
-          "hash": "LIHnMrOiUFLfxqyk7B5LEJuKmPT6RWET6z2CcJsWxOU="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMission.html"
         }
       },
       "version": ""
@@ -82,8 +75,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionCategory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionCategory.html",
-          "hash": "r9BETcIYe1gTKxQggMbaY1EX9ZaG1w9LAi9lYkK003k="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionCategory.html"
         }
       },
       "version": ""
@@ -93,8 +85,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionDirectory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionDirectory.html",
-          "hash": "D7zr+IeMjW5O6uBXn/PNglwFJRPrwGoCcmg/sTzva5s="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotMissionDirectory.html"
         }
       },
       "version": ""
@@ -104,8 +95,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.html",
-          "hash": "OBkjhsYGlWIkzI8GX7CtjuA8pTwZ6nGzzZNY8mGuiRg="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotNetworkPlayer.html"
         }
       },
       "version": ""
@@ -115,8 +105,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotObjectStats.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotObjectStats.html",
-          "hash": "rkvWybcm7AHbDefcar2Ilaw9mRCzKPPZsN1JTh+zziE="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotObjectStats.html"
         }
       },
       "version": ""
@@ -126,8 +115,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRank.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRank.html",
-          "hash": "/xY5JabdJSd7S3fAYDFKwSdSXFFfd0m/LoOajwzVFXI="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRank.html"
         }
       },
       "version": ""
@@ -137,8 +125,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRating.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRating.html",
-          "hash": "8zQJ09WskNZQyZhN43L7lkeEU1HUJJp/fNwFMYc1QhM="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotRating.html"
         }
       },
       "version": ""
@@ -148,8 +135,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotTeam.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotTeam.html",
-          "hash": "IbMRBScc7voYPqoMwb/b1hWuMCqAWc5vwJfHz3lpBe0="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.PilotTeam.html"
         }
       },
       "version": ""
@@ -159,8 +145,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.Pilot.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.Pilot.html",
-          "hash": "kzx1OpaA1VdbYDz7bBRIs+n2dcAN9xBrzmzd5mngLQc="
+          "relative_path": "api/JeremyAnsel.Xwa.Pilot.html"
         }
       },
       "version": ""
@@ -170,8 +155,17 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "e0fCLJDRNKT8BLtoai96Jl/rKG24wmLvIMk9Tbq1/Dk="
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -181,14 +175,22 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "8MZKrtw41Ab2X08D7C89Md0alJyz1ru45qrhYkC7Kxc="
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
