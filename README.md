@@ -12,3 +12,9 @@ Documentation   | http://jeremyansel.github.io/JeremyAnsel.Xwa.Pilot
 Source code     | https://github.com/JeremyAnsel/JeremyAnsel.Xwa.Pilot
 Nuget           | https://www.nuget.org/packages/JeremyAnsel.Xwa.Pilot
 Build           | https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-xwa-pilot/branch/main
+
+# Usage
+
+```csharp
+PilotFile file PilotFile.FromFile(fileName);
+```
