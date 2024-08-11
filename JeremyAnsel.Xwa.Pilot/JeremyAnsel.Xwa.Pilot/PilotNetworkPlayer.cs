@@ -5,7 +5,7 @@
         public const int FormalNameMaxLength = 14;
         public const int FriendlyNameMaxLength = 14;
 
-        private string _formalName;
+        private string _formalName = string.Empty;
 
         public string FormalName
         {
@@ -16,11 +16,11 @@
 
             set
             {
-                _formalName = StringHelpers.Limit(value, FormalNameMaxLength);
+                _formalName = StringHelpers.Limit(value, FormalNameMaxLength) ?? string.Empty;
             }
         }
 
-        private string _friendlyName;
+        private string _friendlyName = string.Empty;
 
         public string FriendlyName
         {
@@ -31,7 +31,7 @@
 
             set
             {
-                _friendlyName = StringHelpers.Limit(value, FriendlyNameMaxLength);
+                _friendlyName = StringHelpers.Limit(value, FriendlyNameMaxLength) ?? string.Empty;
             }
         }
 

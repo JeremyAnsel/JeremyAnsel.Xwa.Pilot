@@ -10,7 +10,7 @@ namespace JeremyAnsel.Xwa.Pilot
         public const int PilotRatingNameMaxLength = 32;
         public const int MissionFileNameMaxLength = 256;
 
-        private string _name;
+        private string _name = string.Empty;
 
         public string Name
         {
@@ -21,7 +21,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
             set
             {
-                _name = StringHelpers.Limit(value, NameMaxLength);
+                _name = StringHelpers.Limit(value, NameMaxLength) ?? string.Empty;
             }
         }
 
@@ -37,7 +37,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public int[] MissionDescriptionIds { get; } = new int[7];
 
-        private string _multiplayerGameName;
+        private string _multiplayerGameName = string.Empty;
 
         public string MultiplayerGameName
         {
@@ -48,11 +48,11 @@ namespace JeremyAnsel.Xwa.Pilot
 
             set
             {
-                _multiplayerGameName = StringHelpers.Limit(value, MultiplayerGameNameMaxLength);
+                _multiplayerGameName = StringHelpers.Limit(value, MultiplayerGameNameMaxLength) ?? string.Empty;
             }
         }
 
-        private string _multiplayerHostName;
+        private string _multiplayerHostName = string.Empty;
 
         public string MultiplayerHostName
         {
@@ -63,7 +63,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
             set
             {
-                _multiplayerHostName = StringHelpers.Limit(value, MultiplayerHostNameMaxLength);
+                _multiplayerHostName = StringHelpers.Limit(value, MultiplayerHostNameMaxLength) ?? string.Empty;
             }
         }
 
@@ -163,7 +163,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public int[] TotalMissionsPlayedCountPerRating { get; } = new int[25];
 
-        private string _pilotRatingName;
+        private string _pilotRatingName = string.Empty;
 
         public string PilotRatingName
         {
@@ -174,7 +174,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
             set
             {
-                _pilotRatingName = StringHelpers.Limit(value, PilotRatingNameMaxLength);
+                _pilotRatingName = StringHelpers.Limit(value, PilotRatingNameMaxLength) ?? string.Empty;
             }
         }
 
@@ -204,7 +204,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public int RegionsCount { get; set; }
 
-        private string _missionFileName;
+        private string _missionFileName = string.Empty;
 
         public string MissionFileName
         {
@@ -215,7 +215,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
             set
             {
-                _missionFileName = StringHelpers.Limit(value, MissionFileNameMaxLength);
+                _missionFileName = StringHelpers.Limit(value, MissionFileNameMaxLength) ?? string.Empty;
             }
         }
 
@@ -225,14 +225,24 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public PilotHangar HangarType { get; set; }
 
-        public static PilotFile FromFile(string fileName)
+        public static PilotFile FromFile(string? fileName)
         {
+            if (fileName is null)
+            {
+                throw new ArgumentNullException(nameof(fileName));
+            }
+
             using var filestream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             return FromStream(filestream);
         }
 
-        public static PilotFile FromStream(Stream stream)
+        public static PilotFile FromStream(Stream? stream)
         {
+            if (stream is null)
+            {
+                throw new ArgumentNullException(nameof(stream));
+            }
+
             using var file = new BinaryReader(stream, Encoding.ASCII, true);
 
             PilotFile pilot = new();
@@ -466,14 +476,24 @@ namespace JeremyAnsel.Xwa.Pilot
             ArrayHelpers.ReadInt2(file, faction.KilledByAIRatingPerMissionType);
         }
 
-        public void Save(string fileName)
+        public void Save(string? fileName)
         {
+            if (fileName is null)
+            {
+                throw new ArgumentNullException(nameof(fileName));
+            }
+
             using var filestream = new FileStream(fileName, FileMode.Create, FileAccess.Write);
             Save(filestream);
         }
 
-        public void Save(Stream stream)
+        public void Save(Stream? stream)
         {
+            if (stream is null)
+            {
+                throw new ArgumentNullException(nameof(stream));
+            }
+
             using var file = new BinaryWriter(stream, Encoding.ASCII, true);
 
             file.Write(StringHelpers.GetBytes(Name, NameMaxLength));

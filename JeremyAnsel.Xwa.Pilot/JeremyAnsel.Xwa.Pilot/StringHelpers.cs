@@ -4,7 +4,7 @@ namespace JeremyAnsel.Xwa.Pilot
 {
     internal static class StringHelpers
     {
-        public static string Limit(string value, int count)
+        public static string? Limit(string? value, int count)
         {
             if (value is null)
             {
@@ -19,7 +19,7 @@ namespace JeremyAnsel.Xwa.Pilot
         {
             byte[] bytes = file.ReadBytes(limit);
             string value = Encoding.ASCII.GetString(bytes, 0, limit) + "\0";
-            return value.Substring(0, value.IndexOf('\0'));
+            return value[..value.IndexOf('\0')];
         }
 
         public static byte[] GetBytes(string value, int limit)
