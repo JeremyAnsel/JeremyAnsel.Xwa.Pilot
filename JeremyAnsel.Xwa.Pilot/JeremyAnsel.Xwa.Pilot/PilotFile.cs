@@ -35,7 +35,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public PilotMissionDirectory MissionDirectoryId { get; set; }
 
-        public int[] MissionDescriptionIds { get; } = new int[7];
+        public int[] MissionDescriptionIds { get; set; } = new int[7];
 
         private string _multiplayerGameName = string.Empty;
 
@@ -75,81 +75,81 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public int NextPromotionPercent { get; set; }
 
-        public int[] TotalScorePerMissionType { get; } = new int[3];
+        public int[] TotalScorePerMissionType { get; set; } = new int[3];
 
-        public int[] TotalMissionsPlayedCountPerMissionType { get; } = new int[3];
+        public int[] TotalMissionsPlayedCountPerMissionType { get; set; } = new int[3];
 
-        public int[] TotalKillsPerMissionType { get; } = new int[3];
+        public int[] TotalKillsPerMissionType { get; set; } = new int[3];
 
-        public int[] TotalFriendliesKilledPerMissionType { get; } = new int[3];
+        public int[] TotalFriendliesKilledPerMissionType { get; set; } = new int[3];
 
-        public int[,] KillsPerCraftPerMissionType { get; } = new int[512, 3];
+        public int[,] KillsPerCraftPerMissionType { get; set; } = new int[512, 3];
 
-        public int[,] KillsSharedPerCraftPerMissionType { get; } = new int[512, 3];
+        public int[,] KillsSharedPerCraftPerMissionType { get; set; } = new int[512, 3];
 
-        public int[,] KillsAssistsPerCraftPerMissionType { get; } = new int[512, 3];
+        public int[,] KillsAssistsPerCraftPerMissionType { get; set; } = new int[512, 3];
 
-        public int[,] KillsFullOnPlayerRatingPerMissionType { get; } = new int[25, 3];
+        public int[,] KillsFullOnPlayerRatingPerMissionType { get; set; } = new int[25, 3];
 
-        public int[,] KillsSharedOnPlayerRatingPerMissionType { get; } = new int[25, 3];
+        public int[,] KillsSharedOnPlayerRatingPerMissionType { get; set; } = new int[25, 3];
 
-        public int[,] KillsAssistOnPlayerRatingPerMissionType { get; } = new int[25, 3];
+        public int[,] KillsAssistOnPlayerRatingPerMissionType { get; set; } = new int[25, 3];
 
-        public int[,] KillsFullOnAIRatingPerMissionType { get; } = new int[6, 3];
+        public int[,] KillsFullOnAIRatingPerMissionType { get; set; } = new int[6, 3];
 
-        public int[,] KillsSharedOnAIRatingPerMissionType { get; } = new int[6, 3];
+        public int[,] KillsSharedOnAIRatingPerMissionType { get; set; } = new int[6, 3];
 
-        public int[,] KillsAssistOnAIRatingPerMissionType { get; } = new int[6, 3];
+        public int[,] KillsAssistOnAIRatingPerMissionType { get; set; } = new int[6, 3];
 
-        public int[] NumOfSpecialCraftInspectedPerMissionType { get; } = new int[3];
+        public int[] NumOfSpecialCraftInspectedPerMissionType { get; set; } = new int[3];
 
-        public int[] EnergyWeaponsHitsPerMissionType { get; } = new int[3];
+        public int[] EnergyWeaponsHitsPerMissionType { get; set; } = new int[3];
 
-        public int[] EnergyWeaponsFiredPerMissionType { get; } = new int[3];
+        public int[] EnergyWeaponsFiredPerMissionType { get; set; } = new int[3];
 
-        public int[] WarheadsHitsPerMissionType { get; } = new int[3];
+        public int[] WarheadsHitsPerMissionType { get; set; } = new int[3];
 
-        public int[] WarheadsFiredPerMissionType { get; } = new int[3];
+        public int[] WarheadsFiredPerMissionType { get; set; } = new int[3];
 
-        public int[] TotalCraftLossesPerMissionType { get; } = new int[3];
+        public int[] TotalCraftLossesPerMissionType { get; set; } = new int[3];
 
-        public int[] LossesByCollisionsPerMissionType { get; } = new int[3];
+        public int[] LossesByCollisionsPerMissionType { get; set; } = new int[3];
 
-        public int[] LossesByStarshipsPerMissionType { get; } = new int[3];
+        public int[] LossesByStarshipsPerMissionType { get; set; } = new int[3];
 
-        public int[] LossesByMinesPerMissionType { get; } = new int[3];
+        public int[] LossesByMinesPerMissionType { get; set; } = new int[3];
 
-        public int[,] KilledByPlayerRatingPerMissionType { get; } = new int[25, 3];
+        public int[,] KilledByPlayerRatingPerMissionType { get; set; } = new int[25, 3];
 
-        public int[,] KilledByAIRatingPerMissionType { get; } = new int[6, 3];
+        public int[,] KilledByAIRatingPerMissionType { get; set; } = new int[6, 3];
 
         public int MissionScore { get; set; }
 
-        public int[] KillsFullOnPlayer { get; } = new int[8];
+        public int[] KillsFullOnPlayer { get; set; } = new int[8];
 
-        public int[] KillsSharedOnPlayer { get; } = new int[8];
+        public int[] KillsSharedOnPlayer { get; set; } = new int[8];
 
-        public int[] KillsFullOnFlightGroup { get; } = new int[192];
+        public int[] KillsFullOnFlightGroup { get; set; } = new int[192];
 
-        public int[] KillsSharedOnFlightGroup { get; } = new int[192];
+        public int[] KillsSharedOnFlightGroup { get; set; } = new int[192];
 
-        public int[] KillsFullFromPlayer { get; } = new int[8];
+        public int[] KillsFullFromPlayer { get; set; } = new int[8];
 
-        public int[] KillsSharedFromPlayer { get; } = new int[8];
+        public int[] KillsSharedFromPlayer { get; set; } = new int[8];
 
-        public int[] KillsFullFromFlightGroup { get; } = new int[192];
+        public int[] KillsFullFromFlightGroup { get; set; } = new int[192];
 
-        public int[] KillsSharedFromFlightGroup { get; } = new int[192];
+        public int[] KillsSharedFromFlightGroup { get; set; } = new int[192];
 
-        public PilotRating[] FlightGroupRating { get; } = new PilotRating[192];
+        public PilotRating[] FlightGroupRating { get; set; } = new PilotRating[192];
 
-        public PilotObjectStats ObjectStats { get; } = new PilotObjectStats();
+        public PilotObjectStats ObjectStats { get; set; } = new PilotObjectStats();
 
-        public PilotMission[] TourOfDutyMissionStatistics { get; } = Enumerable.Range(0, 255).Select(t => new PilotMission()).ToArray();
+        public PilotMission[] TourOfDutyMissionStatistics { get; set; } = Enumerable.Range(0, 255).Select(t => new PilotMission()).ToArray();
 
-        public PilotMission[] CombatChamberMissionStatistics { get; } = Enumerable.Range(0, 255).Select(t => new PilotMission()).ToArray();
+        public PilotMission[] CombatChamberMissionStatistics { get; set; } = Enumerable.Range(0, 255).Select(t => new PilotMission()).ToArray();
 
-        public byte[] CraftKnown { get; } = new byte[512];
+        public byte[] CraftKnown { get; set; } = new byte[512];
 
         public int NewCraftAddedToTechRoom { get; set; }
 
@@ -161,7 +161,7 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public int TotalMissionsPlayedCount { get; set; }
 
-        public int[] TotalMissionsPlayedCountPerRating { get; } = new int[25];
+        public int[] TotalMissionsPlayedCountPerRating { get; set; } = new int[25];
 
         private string _pilotRatingName = string.Empty;
 
@@ -186,15 +186,15 @@ namespace JeremyAnsel.Xwa.Pilot
 
         public int TacOfficerAnnounceNewRank { get; set; }
 
-        public PilotNetworkPlayer[] NetworkPlayers { get; } = Enumerable.Range(0, 8).Select(t => new PilotNetworkPlayer()).ToArray();
+        public PilotNetworkPlayer[] NetworkPlayers { get; set; } = Enumerable.Range(0, 8).Select(t => new PilotNetworkPlayer()).ToArray();
 
-        public PilotTeam[] TeamsStatistics { get; } = Enumerable.Range(0, 10).Select(t => new PilotTeam()).ToArray();
+        public PilotTeam[] TeamsStatistics { get; set; } = Enumerable.Range(0, 10).Select(t => new PilotTeam()).ToArray();
 
         public PilotFactionId CurrentFactionId { get; set; }
 
-        public PilotFaction[] FactionStatistics { get; } = Enumerable.Range(0, 4).Select(t => new PilotFaction()).ToArray();
+        public PilotFaction[] FactionStatistics { get; set; } = Enumerable.Range(0, 4).Select(t => new PilotFaction()).ToArray();
 
-        public byte[] EmailsStatus { get; } = new byte[100];
+        public byte[] EmailsStatus { get; set; } = new byte[100];
 
         public byte EmailsSortCriterion { get; set; }
 
@@ -219,7 +219,7 @@ namespace JeremyAnsel.Xwa.Pilot
             }
         }
 
-        public byte[] ProvingGroundsMissionPerPlayer { get; } = new byte[8];
+        public byte[] ProvingGroundsMissionPerPlayer { get; set; } = new byte[8];
 
         public int MeleeMissionIndex { get; set; }
 
